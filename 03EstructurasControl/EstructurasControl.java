@@ -5,7 +5,7 @@ class EstructurasControl {
         Scanner entrada = new Scanner(System.in);
 
         int opcion, numbinario, total, cantidadproducto, num1;
-        float precio, resultado, compra = 0;
+        float resultado, compra = 0;
         String nombreproducto;
         String binario = "";
         char letra;
