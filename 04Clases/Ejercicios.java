@@ -101,7 +101,7 @@ class Ejercicios{
         //kg a libras
         //m/s a km/h
         //m a yardas y millas
-        double metros = 0.00, kg = 0.00, velocidad = 0.00, cm = 100.00,  pulgadas = 0.0254, gramos = 1000.00, libra = 0.453592, ms = 0.00;
+        double metros = 0.00, kg = 0.00, cm = 100.00,  pulgadas = 0.0254, gramos = 1000.00, libra = 0.453592;
         double conversion1, conversion2;
 
         System.out.println("Selecciona la cantidad que deseas convertir acorde a las siguientes unidades: ");
