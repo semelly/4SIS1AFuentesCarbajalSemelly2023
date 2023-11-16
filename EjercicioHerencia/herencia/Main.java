@@ -1,4 +1,4 @@
-package herencia;
+package EjercicioHerencia.herencia;
 
 import java.util.Scanner;
 
