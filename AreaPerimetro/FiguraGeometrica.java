@@ -1,4 +1,4 @@
-package herencia;
+package AreaPerimetro;
 
 import java.util.*;
 import java.util.Scanner;
