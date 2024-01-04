@@ -1,0 +1,72 @@
+package Ultimo;
+
+public class Cajero {
+    private double saldo;
+
+    public Cajero() {
+        this.saldo = 1000; // Saldo inicial, ajusta según tus necesidades
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void retirar(double cantidad) {
+        // Lógica para retirar dinero
+        if (cantidad > 0 && saldo >= cantidad) {
+            saldo -= cantidad;
+            System.out.println("Retiro exitoso de $" + cantidad);
+        } else {
+            System.out.println("Error al retirar dinero. Fondos insuficientes.");
+        }
+    }
+
+    public void depositar(double cantidad) {
+        // Lógica para depositar dinero
+        if (cantidad > 0) {
+            saldo += cantidad;
+            System.out.println("Depósito exitoso de $" + cantidad);
+        } else {
+            System.out.println("Error al depositar dinero. Cantidad no válida.");
+        }
+    }
+    public void cobrarAlimento(double cantidad) {
+        // Lógica para cobrar alimento
+        if (cantidad > 0 && saldo >= cantidad) {
+            saldo -= cantidad;
+            System.out.println("Cobro de alimento exitoso de $" + cantidad);
+        } else {
+            System.out.println("Error al cobrar alimento. Fondos insuficientes.");
+        }
+    }
+
+    public void recargarCelular(double cantidad) {
+        // Lógica para recargar celular
+        if (cantidad > 0 && saldo >= cantidad) {
+            saldo -= cantidad;
+            System.out.println("Recarga de celular exitosa de $" + cantidad);
+        } else {
+            System.out.println("Error al recargar celular. Fondos insuficientes.");
+        }
+    }
+
+    public void pagarServicioAgua(double cantidad) {
+        // Lógica para pagar servicio de agua
+        if (cantidad > 0 && saldo >= cantidad) {
+            saldo -= cantidad;
+            System.out.println("Pago de servicio de agua exitoso de $" + cantidad);
+        } else {
+            System.out.println("Error al pagar servicio de agua. Fondos insuficientes.");
+        }
+    }
+
+    public void pagarServicioLuz(double cantidad) {
+        // Lógica para pagar servicio de luz
+        if (cantidad > 0 && saldo >= cantidad) {
+            saldo -= cantidad;
+            System.out.println("Pago de servicio de luz exitoso de $" + cantidad);
+        } else {
+            System.out.println("Error al pagar servicio de luz. Fondos insuficientes.");
+        }
+    }
+}
